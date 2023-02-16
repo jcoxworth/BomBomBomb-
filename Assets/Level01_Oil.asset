@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16e40a22d3e9dd14ba6bc076915eb320, type: 3}
+  m_Name: Level01_Oil
+  m_EditorClassIdentifier: 
+  TargetsToDestroy: 2
+  CloudHeight_Max: 300
+  CloudHeight_Min: 100
+  BLD_32x32:
+  - {fileID: 5648629818016665461, guid: 9a54ec4fd078b8249b980924a474245c, type: 3}
+  BLD_16x16:
+  - {fileID: 535149127796703466, guid: 0152e9027fba6874a8561c8522fa348e, type: 3}
+  BLD_8x8:
+  - {fileID: 6761480047286700922, guid: 154fd7f679bb68542aacb4ac5692f9dc, type: 3}
+  BLD_4x4:
+  - {fileID: 8250216813033119150, guid: 9accd13e3ac14c64db363a1d55b3812a, type: 3}
+  BLD_Tgt_32x32:
+  - {fileID: 535149127796703466, guid: 83be248da02914f4b8b3fb73aeb8dc36, type: 3}
+  BLD_Tgt_16x16:
+  - {fileID: 535149127796703466, guid: 33312b84d3a87cd469a217fd2261aa98, type: 3}
+  BLD_Tgt_8x8: []
+  BLD_Tgt_4x4: []
+  BLD_Spl_16x16: []
+  BLD_Spl_8x8: []
+  BLD_Spl_4x4: []
+  AA_32x32: []
+  AA_16x16: []
+  AA_8x8: []
+  AA_4x4:
+  - {fileID: 4944758343556047761, guid: 1a2d011085ac0b541bcf6435d00c63e1, type: 3}
+  - {fileID: 2079681651596450325, guid: badd4c44b2824174c810e44dae082a5f, type: 3}
+  Cloud:
+  - {fileID: 1629951050138460945, guid: d8d209a8ae417aa4593ec312bb1b517c, type: 3}
+  - {fileID: 3388412374227650504, guid: 9883358efb6763a43bdaf03b0d4a4735, type: 3}
+  Mountain:
+  - {fileID: 3688152459324260896, guid: 44ae380bc9af157459fbfa51f8c85e99, type: 3}
+  - {fileID: 3688152459324260896, guid: 3604e7d5ce16613478409eb26cc5cee4, type: 3}
+  - {fileID: 3688152459324260896, guid: ac187c20cbc60d94f829e899933ec622, type: 3}
